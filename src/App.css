@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    border: 1px solid #bababa;
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 17px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 35px #5a5a5a,
+                -5px -5px 35px #ffffff;
+}
+
+h1{
+    margin: 30px;
+    color: rgb(70, 70, 70);    
+}
+
+.modificadores{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.session-content, .break-content{
+    display: flex;
+    justify-content: space-around;
+    margin:20px;
+}
+
+.flecha{
+    cursor: pointer;
+    font-size: 1.3em;
+}
+
+.flecha:hover{
+    color: rgb(68, 68, 161);
+    font-size: 1.35em;
+}
+
+
+.timer-container{
+    margin: 20px;
+}
+
+.timer-display{
+    width: 40%;
+    margin: 5px auto;
+}
+
+#time-left{
+    font-size: 2em;
+    font-weight: 600;
+    color: rgb(68, 68, 161);
+}
+
+.controles{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 60px;
+    cursor: pointer;
+}
+
+.controles > button{
+    font-size: 0.8em;
+    padding: 15px;
+    border: none;
+    border-radius: 2px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  3px 3px 0px #5a5a5a,
+                -3px -3px 0px #ffffff;
+}
+
+.controles > #start_stop:hover{
+    background: linear-gradient(145deg, #4444a1, #a7a1ba);
+    color: white;
+}
+
+.controles > #reset:hover{
+    background: linear-gradient(145deg, #e02222, #c57c7c);
+    color: white;
+}
