@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/reloj-pomodoro/static/css/main.7aedab29.css",
+    "main.js": "/reloj-pomodoro/static/js/main.52b60827.js",
+    "static/media/alarma.mp3": "/reloj-pomodoro/static/media/alarma.4424b7a5ae8f0c2db305.mp3",
+    "index.html": "/reloj-pomodoro/index.html",
+    "main.7aedab29.css.map": "/reloj-pomodoro/static/css/main.7aedab29.css.map",
+    "main.52b60827.js.map": "/reloj-pomodoro/static/js/main.52b60827.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7aedab29.css",
+    "static/js/main.52b60827.js"
+  ]
+}
